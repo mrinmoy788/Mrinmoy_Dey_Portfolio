@@ -780,6 +780,16 @@ section {
     font-size: 1rem;
 }
 
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+    text-align: center; 
+    padding: 10px 0;
+}
+
+
+
 /*footer css */
 
 footer{
