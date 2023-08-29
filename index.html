@@ -462,23 +462,23 @@
     </section>
 
 <!-------------------Contact section-------------->
-    <section id="contact" class="contact">
-        <div class="main-text scroll-scale">
-            <span>ask me a question</span>
-            <h2>Contact Me</h2>
+   <section id="contact" class="contact">
+    <div class="main-text scroll-scale">
+        <span>ask me a question</span>
+        <h2>Contact Me</h2>
+    </div>
+    <form id="contact-form" method="post" class="scroll-bottom">
+        <input id="name" type="text" name="name" placeholder="Your Name" required>
+        <input id="email" type="email" name="email" placeholder="Your Email" required>
+        <input id="address" name="address" placeholder="Your Address">
+        <input id="phone" name="phone" placeholder="Phone Number" required>
+        <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+        <div id="error-message" class="error-message"></div>
+        <div class="btn-box formBtn">
+            <button id="send-message-btn" onclick="sendMail()" type="button" class="btn">Send Message</button>
         </div>
-        <form id="contact-form" method="post" class="scroll-bottom">
-            <input id="name" type="text" name="name" placeholder="Your Name" required>
-            <input id="email" type="email" name="email" placeholder="Your Email" required>
-            <input id="address" name="address" placeholder="Your Address">
-            <input id="phone" name="phone" placeholder="Phone Number" required>
-            <textarea id="message" name="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
-            <div class="btn-box formBtn">
-                <button id="send-message-btn" onclick="sendMail()" type="button" class="btn">Send Message</button>
-
-            </div>
-        </form>
-    </section>
+    </form>
+</section>
   <!-----footer website------------------>
 
   <footer>
